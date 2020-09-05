@@ -1,6 +1,7 @@
 {
     "name": "hpez/url-shortener",
     "description": "A url shortener for laravel",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Hassan Pezeshk",
