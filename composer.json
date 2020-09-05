@@ -1,0 +1,24 @@
+{
+    "name": "hpez/url-shortener",
+    "description": "A url shortener for laravel",
+    "authors": [
+        {
+            "name": "Hassan Pezeshk",
+            "email": "hpez58@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hpez\\UrlShortener\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hpez\\UrlShortener\\UrlShortenerServiceProvider"
+            ]
+        }
+    }
+}
