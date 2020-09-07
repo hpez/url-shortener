@@ -21,3 +21,8 @@ And then run the migrations:
 ```
 php artisan migrate        
 ```
+
+Usage:
+```php
+    $shortenedUrl = UrlShortener::shorten('example.com/test');
+```

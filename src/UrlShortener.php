@@ -13,9 +13,11 @@ class UrlShortener
             $exists = ShortenedUrl::where('shortened', $shortened)->exists();
         } while ($exists);
 
-        return ShortenedUrl::create([
+        ShortenedUrl::create([
             'url' => $url,
             'shortened' => $shortened
         ]);
+
+        return $shortened;
     }
 }
