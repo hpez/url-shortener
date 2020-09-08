@@ -28,5 +28,9 @@ class UrlShortenerServiceProvider extends ServiceProvider
     {
         $this->loadMigrationsFrom(__DIR__ . '../database/migrations');
         $this->loadRoutesFrom(__DIR__ . '/routes.php');
+
+        $this->publishes([
+            __DIR__.'/../database/migrations/' => database_path('migrations')
+        ], 'migrations');
     }
 }
