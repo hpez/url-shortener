@@ -19,7 +19,8 @@ And the service provider if not added automatically:
 
 And then run the migrations:
 ```
-php artisan vendor:publish --provider=Hpez\UrlShortener\UrlShortenerServiceProvider --tag=migrations        
+php artisan vendor:publish --provider=Hpez\UrlShortener\UrlShortenerServiceProvider --tag=migrations
+php artisan migrate        
 ```
 
 Usage:
