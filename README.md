@@ -1,4 +1,4 @@
-# url-shortener
+# Url Shortener
 
 A simple url shortener package for laravel
 
