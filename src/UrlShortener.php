@@ -25,6 +25,6 @@ class UrlShortener
             ]);
         }
 
-        return $shortened;
+        return '/u/' . $shortened;
     }
 }
