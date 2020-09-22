@@ -1,4 +1,4 @@
-# Url Shortener
+# Url Shortener [![Total Downloads](https://poser.pugx.org/hpez/url-shortener/downloads)](//packagist.org/packages/hpez/url-shortener)
 
 A simple url shortener package for laravel
 
