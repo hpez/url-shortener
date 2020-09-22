@@ -24,5 +24,5 @@ php artisan migrate
 
 Usage:
 ```php
-    $shortenedUrl = UrlShortener::shorten('example.com/test');
+    $shortenedUrl = UrlShortener::shorten('/test'); // returns '/u/70aa139e2c' e.g.
 ```
